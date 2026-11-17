@@ -643,6 +643,26 @@ blockquote cite {
     var(--paper);
 }
 
+.evidence-check {
+  margin: 48px 0;
+  padding: 28px 0;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+.evidence-check .eyebrow {
+  margin-bottom: 10px;
+  color: var(--rust);
+}
+
+.evidence-check h3 {
+  margin-bottom: 20px;
+}
+
+.evidence-check p:last-child {
+  margin-bottom: 0;
+}
+
 .agreement-list {
   margin-top: 42px;
   border-top: 1px solid var(--ink);
